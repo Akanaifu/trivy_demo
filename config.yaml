@@ -1,4 +1,4 @@
 database:
   host: "localhost"
   port: 5432
-  password: "AKIAIOSFODNN7KW8XG2D"
+  password: process.env.password
