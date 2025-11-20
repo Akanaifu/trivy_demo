@@ -1,0 +1,4 @@
+FROM node:10-alpine
+USER root
+ENV AWS_SECRET_KEY=AKIAIOSFODNN7EXAMPLE
+CMD ["node", "app.js"]
